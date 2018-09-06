@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    display:flex;
+    width: 50%;
+    flex-direction: column;
+    margin: auto;
+    background-color: azure;
+   justify-content: flex-start;
+}
+
+.btn{
+    padding: 1rem;
+    margin-top: 1rem;
+}
+h1{
+    margin: auto;
+}
+
+#searchText{
+    flex-wrap: wrap;
+    padding: 1rem;
+    flex:1;
+}
+
+#searchSong{
+    flex-wrap: wrap;
+    padding: 1rem;
+    flex:2;
+}
+
+.lyricsV1{
+    display: flex;
+    flex: 1;
+    background-color: aquamarine;
+    color: darkolivegreen;
+    margin-top: 1rem;
+    line-height: 1.5em;
+}
